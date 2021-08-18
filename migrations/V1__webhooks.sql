@@ -1,0 +1,6 @@
+CREATE TABLE webhooks (
+    url VARCHAR(1024) NOT NULL,
+    event VARCHAR(100) NOT NULL,
+    id VARCHAR(100) NOT NULL,
+    UNIQUE(id)
+);

@@ -1,0 +1,13 @@
+.idea
+.git
+dev/
+target/streams
+target/test-reports
+target/classes
+target/test-classes
+target/update
+src/main/scala
+src/main/test
+migrations
+project
+kafka

@@ -1,0 +1,25 @@
+# IDE
+.idea/
+.project/
+*.iml
+.scala_dependencies
+
+# Mac OS X junk
+.AppleDouble
+.DS_Store
+Icon?
+.Spotlight-V100
+.Trashes
+
+# scala / java
+*.class
+*.log
+
+# sbt
+target/
+
+# dev data
+dev/kafka/connectors/*
+dev/kafka/data/*
+dev/kafka/zookeeper/data/*
+dev/kafka/zookeeper/datalog/*
