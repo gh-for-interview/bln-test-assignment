@@ -27,6 +27,8 @@ API:
 * удаление сущности - DELETE [http://localhost:29303/api/v1/webhook/id](http://localhost:29303/api/v1/webhook/id)
 * получение сущности - GET [http://localhost:29303/api/v1/webhook/id](http://localhost:29303/api/v1/webhook/id)
 
+где `id` в конце пути - id webhook, который сервис возвращает при создании сущности.
+
 ### Проверить покрытие тестами
 
 ```
@@ -38,6 +40,8 @@ sbt coverageReport
 Текущее покрытие - 67.90%
 
 ### Запросы для проверки API
+
+Здесь и далее: `id` в конце пути - id webhook, который сервис возвращает при создании сущности.
 
 Создание webhook
 ```
