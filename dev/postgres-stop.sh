@@ -3,4 +3,4 @@
 DEV_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd "$DEV_DIR"
 
-docker-compose -p fpdev_postgres -f postgres.yaml down
+docker-compose -p appdev_postgres -f postgres.yaml down
